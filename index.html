@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main flex">
+        <div class="sidebar">
+            <div class="nav flex">
+                <div class="nav-options op-1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-options">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options flex">
+                    <div class="lib-options nav-options flex">
+                        <img src="./assets/library_icon.png" alt="logo">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons flex">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right hide"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav flex">
+                <div class="nav-top-primary flex">
+                    <div class="nav-top-left">
+                        <img src="./assets/backward_icon.png" alt="backward_icon">
+                        <img src="./assets/forward_icon.png" alt="forward_icon" class="hide">
+                    </div>
+                    <div class="nav-top-right">
+                        <button class="badge m-r-3 hide">Explore Premium</button>
+                        <button class="badge bg-extra-dark m-r-3"><i class="fa-regular fa-circle-down"></i>Install
+                            App</button>
+                        <i class="fa-regular fa-bell m-r-3"></i>
+                        <i class="fa-regular fa-user m-r-3"></i>
+                    </div>
+                </div>
+                <div class="nav-top-secondary flex">
+                    <button class="badge">All</button>
+                    <button class="badge bg-dark">Music</button>
+                    <button class="badge bg-dark">Podcasts</button>
+                </div>
+            </div>
+            <div class="section-cards">
+                <div class="card-section-title">
+                    <h2>Throwback</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/throwback1.jpg" alt="img1" class="card-img">
+                        <p class="card-title">00's Mass Paatalu</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/throwback2.jpg" alt="img1" class="card-img">
+                        <p class="card-title">00s Love Songs Tel...</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/throwback3.jpg" alt="img1" class="card-img">
+                        <p class="card-title">00s Dance Tamil</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/throwback4.jpg" alt="img1" class="card-img">
+                        <p class="card-title">00s Love Malayalam</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/throwback5.jpg" alt="img1" class="card-img">
+                        <p class="card-title">All Out 00's Hindi</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                </div>
+
+                <div class="card-section-title">
+                    <h2>Fresh new music</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/frest_new_music1.jpg" alt="img1" class="card-img">
+                        <p class="card-title">New Music Friday I...</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/frest_new_music2.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Pop Rising</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/frest_new_music3.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Latest Romance Tel...</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/frest_new_music4.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Trending Now Tamil</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/frest_new_music5.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Latest Telugu</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                </div>
+
+                <h2>Recently played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/recently_played1.jpeg" alt="img1" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/recently_played2.jpeg" alt="img1" class="card-img">
+                        <p class="card-title">Bollywood Central</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                </div>
+
+                <div class="card-section-title">
+                    <h2>Spotify original podcasts</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/spotify_originals1.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Pretkotha (Bengali...</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/spotify_originals2.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Aa Modati Alajadi ...</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/spotify_originals3.jpg" alt="img1" class="card-img">
+                        <p class="card-title">The Horror Show by...</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/spotify_originals4.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Best Love Stories</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/spotify_originals5.jpg" alt="img1" class="card-img">
+                        <p class="card-title">True Story Bro! wi...</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                </div>
+
+                <div class="card-section-title">
+                    <h2>Today's biggest hits</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/todays_biggest_hit1.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Pop Shots</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/todays_biggest_hit2.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Hot Hits India</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/todays_biggest_hit3.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Today’s Top Hits</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/todays_biggest_hit4.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Viral Hits</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/todays_biggest_hit5.jpg" alt="img1" class="card-img">
+                        <p class="card-title">International Hits</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                </div>
+
+                <div class="card-section-title">
+                    <h2>Sing-along</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/sing_along1.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Indiespensável</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/sing_along2.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Sing-Along Indie H...</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/sing_along3.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Déjà Vu</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/sing_along4.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Classic Oldies</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/sing_along5.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Karaoke en Español</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                </div>
+
+                <div class="card-section-title">
+                    <h2>More like Djo</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/more_like_djo1.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Indie Love Songs</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/more_like_djo2.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Feel-Good Indie Rock</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/more_like_djo3.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Heartstopper: Elle...</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/more_like_djo4.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Suki Waterhouse</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/more_like_djo5.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Wallows</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                </div>
+
+                <div class="card-section-title">
+                    <h2>Mood</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/mood1.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Chill Hits</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/mood2.jpg" alt="img1" class="card-img">
+                        <p class="card-title">for you.</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/mood3.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Jazz in the Backg...</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/mood4.jpg" alt="img1" class="card-img">
+                        <p class="card-title">sad hour</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/mood5.jpg" alt="img1" class="card-img">
+                        <p class="card-title">wyd</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                </div>
+
+                <div class="card-section-title">
+                    <h2>Instrumental</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/instrumental1.jpg" alt="img1" class="card-img">
+                        <p class="card-title">chill lofi study beats</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/instrumental2.jpg" alt="img1" class="card-img">
+                        <p class="card-title">TECHNO BUNKER</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/instrumental3.jpg" alt="img1" class="card-img">
+                        <p class="card-title">lofi beats</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/instrumental4.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Chilled Jazz</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/instrumental5.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Perfect Concentra...</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                </div>
+
+                <div class="card-section-title">
+                    <h2>Try someting else</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/try_someting_else1.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/try_someting_else2.jpg" alt="img1" class="card-img">
+                        <p class="card-title">00's Mass Paatalu</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/try_someting_else3.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Viral 50 - Global</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/try_someting_else4.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Top Songs - Global</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/try_someting_else5.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Hot Hits India</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                </div>
+
+                <div class="card-section-title">
+                    <h2>Featured Charts</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/featured_charts1.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Top Songs - Global</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/featured_charts2.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Top Songs - India</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/featured_charts3.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Top 50 - India</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/featured_charts4.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Viral 50 - Global</p>
+                        <p class="card-body">Bollywood Central, jab baje toh seedha dil ke centre...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/featured_charts5.jpg" alt="img1" class="card-img">
+                        <p class="card-title">Viral 50 - India</p>
+                        <p class="card-body">Your daily update of the most played tracks right now...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-links flex">
+                    <div class="section-links flex">
+                        <div class="company-links flex links">
+                            <li id="dark">Company</li>
+                            <li>About</li>
+                            <li>Jobs</li>
+                            <li>For the Record</li>
+                        </div>
+                        <div class="communities-links flex links">
+                            <li id="dark">Communities</li>
+                            <li>For Artists</li>
+                            <li>Developers</li>
+                            <li>Advertising</li>
+                            <li>Investors</li>
+                            <li>Vendors</li>
+                        </div>
+                        <div class="useful-links flex links">
+                            <li id="dark">Userful links</li>
+                            <li>Support</li>
+                            <li>Free Mobile App</li>
+                        </div>
+                    </div>
+                    <div class="social-media-links flex">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-copyrights flex">
+                    <div class="copyrights-links flex links">
+                        <li>Legal</li>
+                        <li>Sefety & Privacy Center</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookies</li>
+                        <li>About Ads</li>
+                        <li>Accessibility</li>
+                    </div>
+                    <div class="copyrights-info">&copy; 2024 Spotify AB</div>
+                </div>
+            </div>
+        </div>
+        <div class="music-player flex">
+            <div class="current-music-info flex">
+                <img src="./assets/current_song_img.jpeg" alt="current_music_img" class="cm-info-item">
+                <div class="music-title cm-info-item">
+                    <a href="#">End of Beginning</a>
+                    <div class="music-sub-title">
+                        <a href="#">Djo</a>
+                    </div>
+                </div>
+                <i class="fa-regular fa-heart cm-info-item pointer"></i>
+            </div>
+            <div class="music-track flex">
+                <div class="player-controls flex">
+                    <img src="./assets/player_icon1.png" alt="img">
+                    <img src="./assets/player_icon2.png" alt="img">
+                    <img src="./assets/player_icon3.png" alt="img" id="btn-play-pause">
+                    <img src="./assets/player_icon4.png" alt="img">
+                    <img src="./assets/player_icon5.png" alt="img">
+                </div>
+                <div class="progress-bar flex">
+                    <div class="current-time">0:01</div>
+                    <input type="range" name="p-bar" id="p-bar" min="0" , max="100" step="1" value="1">
+                    <div class="tot-time">2:39</div>
+                </div>
+            </div>
+            <div class="music-controls flex">
+                <img src="./assets/controls_icon1.png" alt="img" class="img-small">
+                <img src="./assets/controld_icon2.png" alt="img" class="img-small">
+                <img src="./assets/controls_icon3.png" alt="img" class="img-large">
+                <img src="./assets/controls_icon4.png" alt="img" class="img-large">
+                <img src="./assets/controls_icon5.png" alt="img" class="img-small">
+                <input type="range" name="p-bar" id="p-bar" min="0" , max="100" step="1" value="1">
+                <img src="./assets/album_icon2.png" alt="img" class="img-small">
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
